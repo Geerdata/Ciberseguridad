@@ -46,18 +46,35 @@ Ahora debera brindar permisos de almacenamiento, esto lo hara con el siguiente c
 Ahora instalaremos el comando para acceder a la web
 
     kali@kali:~$ pkg install wget		
-tttt
-Ahora instalaremos 
 
-kali@kali:~$ wget -O install-nethunter-termux  https://offs.ec/2MceZWr
-kali@kali:~$ chmod +x install-nethunter-termux
-kali@kali:~$ ./install-nethunter-termux
+Ahora descargaremos Nethunter desde su repositorio 
 
-    3 - KALI 
-Elegir la opción 1 FULL KALI
-Despues pedira si queremos borrar el archivo decimos que NO
+    kali@kali:~$ wget -O install-nethunter-termux  https://offs.ec/2MceZWr
 
-    4 - NETHUNTER
+Ahora brindaremos permisos de administrador en termux para instalar nethunter
+
+    kali@kali:~$ chmod +x install-nethunter-termux
+
+Ahora instalaremos NETHUNTER
+
+    kali@kali:~$ ./install-nethunter-termux
+
+INSTALACION DE KALI LINUX
+
+Ya tenemos el acceso al entorno Virtual
+
+Ahora debes elegir la Opcion 1 (Full KALIX)
+
+Cuando termine de instalar Aparecera un msj 
+
+donde indica si "Queres Borrar los Archivos" , Indicar Que NO
+
+
+
+CONFIGURACION DE KALI LINUX
+
+Primeramente 
+
 
 nh - r Abrir consola de kali linux root
 nano /etc/resolv.conf 
